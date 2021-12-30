@@ -1,0 +1,26 @@
+.EI, .ES, .EC{
+  width:200px;
+  height: 32px;
+  .EI-content{
+    //border:1px solid #ccc;
+    height: 100%;
+    .EI-content-icon{
+      visibility: hidden;
+      float: right;
+      margin-top: 10px;
+    }
+    &:hover{
+      background: #ccc;
+      cursor: pointer;
+      .EI-content-icon{
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.ES{
+  .ant-select {
+    width:100%;
+  }
+}

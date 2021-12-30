@@ -1,0 +1,1 @@
+export const COLORS = ['#FD9B02', '#62D36F', '#00BFFF', '#A963E3'];
